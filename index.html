@@ -85,13 +85,14 @@
 
         <h2>Trova il piano business che fa per te</h2>
 
+        <div id="plan">
 
-        <input type="radio" id="mensile" name="fatturazione" value="mensile" checked />
-        <label for="mensile">Fatturazione mensile</label>
-        <input type="radio" id="annuale" name="fatturazione" value="annuale" />
-        <label for="huey">Fatturazione annuale</label>
+            <input type="radio" id="mensile" name="fatturazione" value="mensile" checked />
+            <label for="mensile">Fatturazione mensile</label>
+            <input type="radio" class="annuale" name="fatturazione" value="annuale" />
+            <label for="annuale">Fatturazione annuale</label>
 
-
+        </div>
         <!-- Card -->
 
         <section class="box-card">
@@ -132,8 +133,7 @@
                     <p><strong>Punti Salienti del piano</strong></p>
 
                     <span><i class="fa-solid fa-check"></i> Invia file fino a 100 GB con Dropbox Transfert</span>
-                    <span><i class="fa-solid fa-check"></i>Cartelle offline su
-                        dispositivi mobili</spa>
+                    <span><i class="fa-solid fa-check"></i> Cartelle offline su dispositivi mobili</span>
                 </div>
             </div>
 
@@ -401,12 +401,14 @@
 
             <label for="lingua">
                 <i class="fa-solid fa-earth-americas"></i>
+            </label>
 
-                <select name="lingua" id="lingua">
-                    <option value="italiano">
-                        Italiano
-                    </option>
-                </select>
+            <select name="lingua" id="lingua">
+                <option value="italiano">
+                    Italiano
+                </option>
+            </select>
+
         </div>
     </footer>
 
