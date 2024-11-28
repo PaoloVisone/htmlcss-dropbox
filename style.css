@@ -242,3 +242,32 @@ span {
 .small {
     max-width: 60%;
 }
+
+/* Footer */
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+}
+
+.foot-up {
+    max-width: 65%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.foot-down {
+    max-width: 70%;
+    margin: 0 auto;
+    align-items: start;
+    padding: 30px;
+}
+
+#lingua {
+    background-color: transparent;
+    color: white;
+    border: none;
+}
