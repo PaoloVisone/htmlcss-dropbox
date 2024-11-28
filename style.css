@@ -75,7 +75,7 @@ header {
     background-color: hsla(206, 50%, 80%, 1);
 }
 
-.hero {
+#hero {
     /* background-color: beige;
     border: 2px solid black; */
     width: 65%;
@@ -175,7 +175,6 @@ input {
 input:checked {
     border: 6px solid rgba(0, 97, 254, 1);
 }
-
 
 /* Regole delle card */
 

@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
@@ -46,7 +47,7 @@
 
         <!-- Hero section -->
 
-        <section class="hero">
+        <section id="hero">
 
             <!-- Title -->
 
@@ -68,7 +69,7 @@
 
                     <p>Annulla in qualsiasi momento</p>
 
-                    <span id="arrow">&#129139;</span>
+                    <a id="arrow" href="#footer">&#129139;</a>
                 </div>
 
                 <div class="img-box">
@@ -85,14 +86,14 @@
 
         <h2>Trova il piano business che fa per te</h2>
 
-        <div id="plan">
+        <section id="plan">
 
-            <input type="radio" id="mensile" name="fatturazione" value="mensile" checked />
+            <input type="radio" id="mensile" name="fatturazione" value="mensile" checked>
             <label for="mensile">Fatturazione mensile</label>
-            <input type="radio" class="annuale" name="fatturazione" value="annuale" />
+            <input type="radio" class="annuale" name="fatturazione" value="annuale">
             <label for="annuale">Fatturazione annuale</label>
 
-        </div>
+        </section>
         <!-- Card -->
 
         <section class="box-card">
@@ -358,7 +359,9 @@
 
     </main>
 
-    <footer>
+    <!-- Footer Section -->
+
+    <footer id="footer">
         <div class="foot-up">
             <div class="foot-box">
                 <h3>Dropbox</h3>
