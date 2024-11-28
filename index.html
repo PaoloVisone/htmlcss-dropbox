@@ -2,6 +2,9 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+        integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dropbox</title>
@@ -10,23 +13,30 @@
 
 <body>
 
+    <!-- Navigation -->
+
     <nav>
+        <!-- Logo -->
 
         <div class="row">
-            <img id="logo" src="" alt="img">
+            <img id="logo" src="img/logo-small.png" alt="img">
+
+            <!-- Link -->
             <ul>
-                <li><a href="#">prova</a></li>
-                <li><a href="#">prova</a></li>
-                <li><a href="#">prova</a></li>
+                <li><a href="#">Perchè Dropbox</a></li>
+                <li><a href="#">Funzioni</a></li>
+                <li><a href="#">Piani e Prezzi</a></li>
             </ul>
         </div>
 
         <div class="row">
             <ul>
-                <li><a href="#">prova</a></li>
-                <li><a href="#">prova</a></li>
-                <li><a href="#">prova</a></li>
+                <li><a href="#">Supporto</a></li>
+                <li><a href="#">Contatta l'ufficio vendite</a></li>
+                <li><a href="#">Accedi</a></li>
             </ul>
+
+            <!-- Button Start -->
             <a href="#" class="btn">Inizia</a>
         </div>
 
@@ -34,25 +44,35 @@
 
     <header>
 
+        <!-- Hero section -->
+
         <section class="hero">
 
-            <h1>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, recusandae.</h1>
+            <!-- Title -->
+
+            <h1>Tutto ciò che ti serve per il lavoro, in un unico posto</h1>
 
             <div class="content">
 
                 <div class="box">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis dicta dolores
-                        dolorem praesentium inventore nihil laudantium, dolor sit beatae.</p>
+                    <p>Finalmente tutti i tuoi strumenti, contenuti e collaboratori sono accessibili
+                        dallo stesso posto.
+                        dropbox business è più di uno spazio di archiviazione sicuro: è un modo intelligente e
+                        integrato per ottimizzare il flusso di lavoro esistente.
+                    </p>
 
-                    <a class="btn" href="#">Prova</a>
+                    <div id="test">
 
-                    <p>Lorem ipsum dolor sit amet.</p>
+                        <a class="btn" href="#">Inizia la tua prova gratuita</a>
+                    </div>
 
-                    <span>&#8595;</span>
+                    <p>Annulla in qualsiasi momento</p>
+
+                    <span id="arrow">&#129139;</span>
                 </div>
 
                 <div class="img-box">
-                    <img src="" alt="">
+                    <img class="picture" src="img/jumbo.png" alt="Jumbo">
                 </div>
 
             </div>
@@ -64,11 +84,178 @@
 
     <main>
 
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, officia.</h1>
+        <h2>Trova il piano business che fa per te</h2>
 
         <div id="check">
-            <input type="radio" name="fatturazione" id="radio">
-            <input type="radio" name="fatturazione" id="radio">
+            <input type="radio" id="mensile" name="fatturazione" value="mensile" checked />
+            <label for="mensile">Fatturazione mensile</label>
+            <input type="radio" id="annuale" name="fatturazione" value="annuale" />
+            <label for="huey">Fatturazione annuale</label>
+        </div>
+
+        <!-- Card -->
+
+        <div class="box-card">
+
+            <!-- Professional Card -->
+
+            <div class="card">
+
+                <div class="up-card">
+                    <span><i class="fa-solid fa-user"></i>Singolo</span>
+                </div>
+
+                <div class="content-card">
+
+                    <h3>Professional</h3>
+
+                    <spanc><strong>€ 12.00</strong></span>
+
+                        <span class="data">/mese</span>
+
+                        <div class="promo">
+
+                            <p><i class="fa-solid fa-user"></i> 1 utente</p>
+                            <p><i class="fa-solid fa-folder"></i> 5 TB di spazio di archiviazione sicuro</p>
+                            <p><i class="fa-solid fa-share-nodes"></i> Funzioni di produttività premium e
+                                condivisionefile semplice e sicura</p>
+
+                        </div>
+
+                        <a class="btn" href="#">Prova gratis per 30 giorni</a>
+
+
+
+                        <p class="text-shop">oppure <a class="shop" href="#">acquista ora</a></p>
+
+
+                        <div class="line"></div>
+
+                        <p><strong>Punti Salienti del piano</strong></p>
+
+                        <p><span class="check-blu">&#10003;</span> Invia file fino a 100 GB con Dropbox Transfert</p>
+                        <p><span class="check-blu">&#10003;</span> Cartelle offline su dispositivi mobili</p>
+                </div>
+            </div>
+
+            <!-- Advanced Card -->
+
+            <div class="card">
+                <div class="up-card">
+                    <span><i class="fa-solid fa-users"></i>Team</span>
+                </div>
+                <div class="content-card">
+
+                    <h3>Advanced</h3>
+
+                    <spanc><strong>€ 18.00</strong></span>
+
+                        <span class="data">/utente/mese</span>
+
+                        <div class="promo">
+
+                            <p><i class="fa-solid fa-users"></i> 3 o pù utenti</p>
+                            <p><i class="fa-solid fa-folder"></i> Tutto lo spazio di cui hai bisogno il tuo team</p>
+                            <p><i class="fa-solid fa-share-nodes"></i> Sofisticate funzioni di controllo e per tenere al
+                                sicuro tutti i file de tuo team.</p>
+
+                        </div>
+
+                        <a class="btn" href="#">Prova gratis per 30 giorni</a>
+
+
+
+                        <p class="text-shop">oppure <a class="shop" href="#">acquista ora</a></p>
+
+
+                        <div class="line"></div>
+
+                        <p><strong>Punti Salienti del piano</strong></p>
+
+                        <p><span class="check-blu">&#10003;</span> Nessun limite di spazio per i file</p>
+                        <p><span class="check-blu">&#10003;</span> Cartelle offline su dispositivi mobili</p>
+                        <p><span class="check-blu">&#10003;</span> Risparmio del 50% rispetto alle iscrizioni singole
+                        </p>
+                        <p><span class="check-blu">&#10003;</span> Possibilità di inserire nuovi membri del team</p>
+                        <p><span class="check-blu">&#10003;</span> Gestione dei permessi in base ai ruoli</p>
+                </div>
+
+            </div>
+            <!-- Enterprise Card -->
+            <div class="card">
+                <div class="up-card">
+                    <span><i class="fa-solid fa-building"></i>Azienda</span>
+                </div>
+                <div class="content-card">
+
+                    <h3>Enterprise</h3>
+
+                    <spanc><strong>contattaci</strong></span>
+
+                        <span class="data">-</span>
+
+                        <div class="promo">
+
+                            <p><i class="fa-solid fa-user"></i> 10 o più utenti</p>
+                            <p><i class="fa-solid fa-folder"></i> Soluzioni personalizzata per la tua azienda</p>
+                            <p><i class="fa-solid fa-share-nodes"></i> Assistenza personalizzata per aiutare gli
+                                amministratori in una gestione su larga scala</p>
+
+                        </div>
+
+                        <a class="btn contact" href="#">Contattaci</a>
+
+
+
+                        <p class="text-shop">oppure <a class="shop" href="#">acquista ora</a></p>
+
+
+                        <div class="line"></div>
+
+                        <p><strong>Punti Salienti del piano</strong></p>
+
+                        <p><span class="check-blu">&#10003;</span> Cartelle offline su dispositivi mobili</p>
+                        <p><span class="check-blu">&#10003;</span> Servizio assistenza 24/h</p>
+                        <p><span class="check-blu">&#10003;</span> Possibilità di personalizzazione totale</p>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Card Team contact "ufficio vendite" -->
+
+        <div class="card long">
+            <div class="up-card">
+                <span><i class="fa-solid fa-building"></i>Team</span>
+            </div>
+            <div class="content-card ">
+                <h3>Enterprise</h3>
+                <p><strong>Contatta l'ufficio vendite per i prezzi</strong></p>
+
+                <p>Soluzioni personalizzate e supporto su misura per aiutare i professionisti IT nella gestione su
+                    qualsiasi
+                    scala</p>
+
+            </div>
+        </div>
+
+
+        <!-- Section TROVA PARTNER -->
+        <div class="content">
+            <div class="img-box">
+                <img class="picture" src="img/partner.png" alt="Partner">
+            </div>
+            <div class="box partner">
+                <h3>Entra in contatatto con un partner Dropbox</h3>
+                <p>Trova un partner Dropbox e HelloSign di fiducia. Ottieni le soluzioni e i servizi necessari per
+                    raggiungere i tuoi obietivi aziendali, tra cui implementazione, integrazione, gestione e supporto
+                    continui.</p>
+
+                <a class="btn transparent" href="#">Trova partner</a>
+
+            </div>
+
+
         </div>
 
         <div class="box-card">
@@ -83,28 +270,39 @@
                 <div class="up-card"></div>
             </div>
         </div>
-
-        <div class="card long">
-            <div class="up-card"></div>
-
-        </div>
-        </div>
-        <div class="content">
-            <div class="box">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas perferendis dicta dolores
-                    dolorem praesentium inventore nihil laudantium, dolor sit beatae.</p>
-
-                <a class="btn" href="#">Prova</a>
+        <div class="box-card">
+            <div class="card">
+                <div class="up-card"></div>
 
             </div>
-
-            <div class="img-box">
-                <img src="" alt="">
+            <div class="card">
+                <div class="up-card"></div>
+            </div>
+            <div class="card">
+                <div class="up-card"></div>
             </div>
         </div>
 
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, delectus?</h2>
+
+        <a href="#">Lorem ipsum dolor sit amet.</a>
 
     </main>
+
+    <footer>
+        <section class="hero">
+
+            <div class="foot-box"></div>
+            <div class="foot-box"></div>
+            <div class="foot-box"></div>
+            <div class="foot-box"></div>
+            <div class="foot-box"></div>
+
+            <div id="line"></div>
+
+
+        </section>
+    </footer>
 
 </body>
 
