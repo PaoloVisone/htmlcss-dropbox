@@ -13,11 +13,13 @@ body {
 /* Regole Navigatore */
 
 nav {
-    /* background-color: aquamarine; */
+    background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 8px;
+    position: sticky;
+    top: 0;
 }
 
 #logo {
@@ -47,12 +49,20 @@ a {
     font-size: 14px;
 }
 
+li:hover {
+    border-bottom: 2px solid black;
+}
+
 /* Bottoni */
 
 .btn {
     background-color: rgba(0, 97, 254, 1);
     padding: 8px 15px;
     color: white;
+}
+
+.btn:hover {
+    opacity: 0.5;
 }
 
 .contact {
@@ -268,6 +278,10 @@ footer {
 
 #lingua {
     background-color: transparent;
-    color: white;
+    color: gray;
     border: none;
+}
+
+.fa-earth-americas {
+    color: gray;
 }
